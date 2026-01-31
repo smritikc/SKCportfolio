@@ -134,7 +134,7 @@ const Projects = () => {
             >
               {/* Project Image Container */}
               <div className="h-52 md:h-60 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-black opacity-70"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-gray-900 to-black opacity-70"></div>
                 <img 
                   src={project.image} 
                   alt={project.title}
@@ -148,7 +148,7 @@ const Projects = () => {
                 
                 {/* Gradient Overlay */}
                 <div 
-                  className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-30 group-hover:opacity-50 transition-opacity duration-500`}
+                  className={`absolute inset-0 bg-linear-to-br ${project.gradient} opacity-30 group-hover:opacity-50 transition-opacity duration-500`}
                 ></div>
                 
                 {/* Tech Stack Badges */}

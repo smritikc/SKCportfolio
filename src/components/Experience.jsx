@@ -129,12 +129,12 @@ const Experience = () => {
             
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent via-cyan-500 to-transparent"></div>
+              <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-linear-to-b from-accent via-cyan-500 to-transparent"></div>
               
               {experiences.map((exp, index) => (
                 <div key={index} className="timeline-item relative mb-10 ml-12">
                   {/* Timeline dot */}
-                  <div className="absolute -left-12 top-0 size-6 rounded-full bg-gradient-to-r from-accent to-cyan-500 border-4 border-dark"></div>
+                  <div className="absolute -left-12 top-0 size-6 rounded-full bg-linear-to-r from-accent to-cyan-500 border-4 border-dark"></div>
                   
                   <div 
                     className="glass-effect p-6 rounded-2xl card-hover"

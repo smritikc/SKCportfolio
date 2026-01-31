@@ -3,6 +3,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import emailjs from '@emailjs/browser'
+
 import { 
   FaPaperPlane, 
   FaCheckCircle, 
@@ -92,7 +93,7 @@ const handleSubmit = async (e) => {
 
     // ✅ Replace with your actual Service ID
     const result = await emailjs.send(
-      'service_kkict0g',      // ← Your Service ID
+      'service_mb3n9ab',      // ← Your Service ID
       'template_84n2yz8',     // Your Template ID
       templateParams
     )
@@ -107,8 +108,10 @@ const handleSubmit = async (e) => {
       }, 5000)
     }
   } catch (err) {
-    console.error('Email sending failed:', err)
-    setError('Failed to send message. Please try again or email me directly at smritikc588@gmail.com')
+     console.error('FULL EmailJS error:', err)
+  setError(err?.text || 'EmailJS error occurred')
+    // console.error('Email sending failed:', err)
+    // setError('Failed to send message. Please try again or email me directly at smritikc588@gmail.com')
   } finally {
     setIsSubmitting(false)
   }
@@ -146,7 +149,8 @@ const handleSubmit = async (e) => {
                   <p className="text-light/70">I'll get back to you within 24 hours.</p>
                   <p className="text-light/60 text-sm mt-2">Check your email for a copy of this message.</p>
                 </div>
-              ) : (
+              ) : 
+                  (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Error Message */}
                   {error && (
