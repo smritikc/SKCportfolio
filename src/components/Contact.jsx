@@ -178,7 +178,7 @@ const handleSubmit = async (e) => {
                           background: 'rgba(10, 10, 10, 0.5)',
                           border: '1px solid rgba(255, 255, 255, 0.1)'
                         }}
-                        placeholder="John Doe"
+                        placeholder="Your name please !"
                         disabled={isSubmitting}
                       />
                     </div>
@@ -198,7 +198,7 @@ const handleSubmit = async (e) => {
                           border: '1px solid rgba(255, 255, 255, 0.1)',
                           borderColor: error.includes('email') ? 'rgba(239, 68, 68, 0.5)' : 'rgba(255, 255, 255, 0.1)'
                         }}
-                        placeholder="john@example.com"
+                        placeholder="Your mail Address?"
                         disabled={isSubmitting}
                       />
                     </div>
@@ -238,7 +238,7 @@ const handleSubmit = async (e) => {
                         background: 'rgba(10, 10, 10, 0.5)',
                         border: '1px solid rgba(255, 255, 255, 0.1)'
                       }}
-                      placeholder="Tell me about your project..."
+                      placeholder="What u wanna know?"
                       disabled={isSubmitting}
                     />
                   </div>
