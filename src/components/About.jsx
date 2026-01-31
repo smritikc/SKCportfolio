@@ -37,13 +37,13 @@ const About = () => {
           {/* Left Column - Image/Stats */}
           <div className="space-y-8">
             <div className="relative">
-              <div className="w-64 h-64 mx-auto rounded-2xl overflow-hidden border-4 border-accent/30">
+              <div className="w-2/3 h-2/3 mx-auto rounded-2xl overflow-hidden border-4 border-accent/30">
                 <div className="w-full h-full bg-linear-to-br from-accent/20 to-cyan-500/20 flex items-center justify-center">
-                  <div className="text-6xl">👩‍💻</div>
+                  <div className="text-6xl"><img src="/skimg.png" alt="image" /></div>
                 </div>
               </div>
              <div className="absolute -top-4 -right-4 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-linear-to-r from-blue-600 to-cyan-500 flex items-center justify-center animate-float">
-  <span className="text-2xl sm:text-3xl">🚀</span>
+  
 </div>
             </div>
 
