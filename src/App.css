@@ -1,0 +1,47 @@
+/* Additional custom styles */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gradient-gradient(to bottom, #0070f3, #00c6ff);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gradient-gradient(to bottom, #0060d3, #00b6e6);
+}
+
+/* Animation delays */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
