@@ -57,19 +57,22 @@ const Footer = () => {
           <p className="text-light/60 mb-4">Tech Stack</p>
           <div className="flex justify-center gap-4 flex-wrap">
             <div className="flex items-center gap-2 px-3 py-1.5 bg-accent/10 rounded-full">
-              <FaReact className="text-accent" />
+            <a href="https://react.dev/">
+            <FaReact className="text-accent" />
+            </a>
+              
               <span className="text-sm">React.js</span>
             </div>
             <div className="flex items-center gap-2 px-3 py-1.5 bg-accent/10 rounded-full">
-              <span className="text-accent">TW</span>
+              <span className="text-accent"><a href="https://tailwindcss.com/">TW</a></span>
               <span className="text-sm">Tailwind CSS</span>
             </div>
             <div className="flex items-center gap-2 px-3 py-1.5 bg-accent/10 rounded-full">
-              <span className="text-accent">GSAP</span>
+              <span className="text-accent"><a href="https://gsap.com/">GSAP</a></span>
               <span className="text-sm">Animation</span>
             </div>
             <div className="flex items-center gap-2 px-3 py-1.5 bg-accent/10 rounded-full">
-              <span className="text-accent">Vite</span>
+              <span className="text-accent"><a href="https://vite.dev/">Vite</a></span>
               <span className="text-sm">Build Tool</span>
             </div>
           </div>

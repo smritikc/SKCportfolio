@@ -404,7 +404,7 @@ const handleSubmit = async (e) => {
                   </a>
                   
                   <a
-                    href="https://smriti-portfolio-weld.vercel.app"
+                    href="https://linktr.ee/smriti_k.c"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg hover:scale-105 transition-all duration-300 text-white"
@@ -420,7 +420,7 @@ const handleSubmit = async (e) => {
                     }}
                   >
                     <FaGlobe className="text-xl" />
-                    <span>Portfolio</span>
+                    <span>Linktree</span>
                   </a>
                   
                   <a

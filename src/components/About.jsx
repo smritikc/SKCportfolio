@@ -104,11 +104,11 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="glass-effect p-4 rounded-2xl text-center">
-                <div className="text-2xl font-bold gradient-text mb-1">2+</div>
-                <div className="text-sm text-light/70">Years Experience</div>
+                <div className="text-2xl font-bold gradient-text mb-1">∞</div>
+                <div className="text-sm text-light/70">Passion for Coding</div>
               </div>
               <div className="glass-effect p-4 rounded-2xl text-center">
-                <div className="text-2xl font-bold gradient-text mb-1">10+</div>
+                <div className="text-2xl font-bold gradient-text mb-1">20+</div>
                 <div className="text-sm text-light/70">Projects</div>
               </div>
               <div className="glass-effect p-4 rounded-2xl text-center">
@@ -122,13 +122,14 @@ const About = () => {
             </div>
 
             <div className="pt-6 flex gap-4">
-              <a
-                href="#contact"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-accent to-cyan-500 text-dark font-semibold rounded-full hover:shadow-lg hover:shadow-accent/30 transition-all duration-300"
-              >
-                Download CV
-                <span className="text-lg">📄</span>
-              </a>
+            <a
+  href="/smritikc-CV.pdf"
+  download
+  className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-accent to-cyan-500 text-dark font-semibold rounded-full hover:shadow-lg hover:shadow-accent/30 transition-all duration-300"
+>
+  Download CV
+  <span className="text-lg">📄</span>
+</a>
               <a
                 href="#projects"
                 className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent/30 text-accent font-semibold rounded-full hover:bg-accent/10 transition-all duration-300"
