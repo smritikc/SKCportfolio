@@ -78,8 +78,8 @@ const About = () => {
             </h3>
             
             <p className="text-light/80 text-lg">
-              Final-year Computer Science student with 2+ years of hands-on experience building scalable web applications using React.js ecosystem. 
-              Specializing in creating performant, responsive interfaces with emphasis on user experience and code maintainability.
+              Frontend developer specializing in the modern React.js ecosystem, with strong experience building scalable and responsive web applications. Skilled in creating performant user interfaces with a focus on user experience, clean architecture, and maintainable code. Seeking an internship to contribute to real-world projects and grow in an agile development environment.
+
             </p>
 
             <p className="text-light/80 text-lg">
